@@ -6,20 +6,20 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
-class MyConfigTest {
-
-    @Autowired
-    MyConfig myConfig;
-
-    @Test
-    void myBean() {
-        System.out.println(myConfig.myBean());
-        System.out.println(myConfig.myBean());
-        System.out.println(myConfig.myBean());
-        System.out.println(myConfig.myBean());
-        System.out.println(myConfig.myBean());
-        System.out.println(myConfig.myBean());
-    }
-
-}
+//@SpringBootTest
+//class MyConfigTest {
+//
+//    @Autowired
+//    MyConfig myConfig;
+//
+//    @Test
+//    void myBean() {
+//        System.out.println(myConfig.myBean());
+//        System.out.println(myConfig.myBean());
+//        System.out.println(myConfig.myBean());
+//        System.out.println(myConfig.myBean());
+//        System.out.println(myConfig.myBean());
+//        System.out.println(myConfig.myBean());
+//    }
+//
+//}
